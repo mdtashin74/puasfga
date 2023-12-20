@@ -1,0 +1,267 @@
+* {
+	html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+text-decoration: none;
+list-style: none;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.navbar {
+	width: 100%;
+	height: 160px;
+	background-image: url(image/header.jpg);
+	background-size: contain;
+	background-position: center;
+
+}
+
+.nav-content {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.logo img {
+	height: 160px;
+	margin-left: 70px;	
+}
+
+.site-name {
+	margin-left: 10px;
+	margin-bottom: 45px;
+}
+
+.menu-item a li{
+	display: inline-block;
+	color: rgb(0, 0, 0);
+	margin: 0 8px;
+	
+}
+
+.menu-item {
+	margin-bottom: 140px;
+}
+
+.main-body {
+	width: 60%;
+	height: 700px;
+	margin: 0 20%;
+	display: flex;
+	justify-content: space-between;
+}  
+
+
+.main-body .body-one {
+	width: 63%;
+	height: 100%;	
+}
+
+.main-body .body-two {
+	width: 31%;
+	height: 100%;
+}
+
+/* main content customize */
+hr {
+	height: 1px;
+    border: none;
+    background-color: black;
+}
+
+.main-content {
+	width: 100%;
+}
+
+.main-content-time {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 12px;
+	color: red;
+} 
+
+.main-content-readmore-comments {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.main-content-readmore-comments a {
+	display: flex;
+	align-items: center;
+	color: orangered;
+}
+
+.ver-line::before {
+	content: '';
+	position: absolute;
+	width: 1.5px;
+	height: 14px;
+	margin-left: -6px;
+	background-color: black;
+
+}
+
+/* sub content customize */
+
+.sub-content {
+	width: 100%;
+}
+
+.sub-content-time {
+	display: flex;
+	align-items: center;
+	gap: 5px;
+	font-size: 12px;
+	color: red;
+} 
+
+.sub-content-readmore-comments {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+
+.sub-content-readmore-comments a {
+	display: flex;
+	align-items: center;
+	color: orangered;
+}
+
+/* body two customize */
+
+.body-two .visit p{
+	font-size: 14px;
+	color: red;
+}
+
+.body-two .articles p{
+	font-size: 14px;
+	color: red;
+}
+
+.body-two .archives p{
+	font-size: 14px;
+	color: red;
+}
+
+/* footer cus */
+
+.footer-body {
+	height: 250px;
+	width: 100%;
+	background-color: black;
+}
+
+.footer-section {
+	width: 60%;
+	height: 60%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: space-between;
+}
+
+.footer-section .resources {
+	width: 30%;
+	height: 100%;
+
+}
+
+.footer-section .blogs {
+	width: 30%;
+	height: 100%;
+	margin-left: -25px;
+
+}
+
+.footer-section .showcase {
+	width: 31%;
+	height: 100%;
+}
+
+.footer-section a p {
+	color: white;
+	font-size: 14px;
+}
+
+.footer-section hr {
+	height: 1px;
+    border: none;
+    background-color: rgb(255, 255, 255);
+	opacity: 0.50;
+}
+
+
+
+.footer-end{
+	display: flex;
+	align-items: center;
+	margin-top: 75px;
+    
+}
+
+.footer-end a{
+	margin: 0 4px;
+	color: orangered;
+	font-size: 13px;
+}
+
+.footer-end p {
+	color: white;
+	font-size: 13px;
+}
+.footer-end svg {
+	width: 10px;
+}
+
+.end-ver-line::before {
+	content: '';
+	position: absolute;
+	width: 1.5px;
+	height: 14px;
+	margin-left: -6px;
+	background-color: rgb(255, 255, 255);
+
+}
